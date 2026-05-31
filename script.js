@@ -9,7 +9,7 @@ var playPauseButton = document.getElementById("playPauseButton");
 //     var direction = 1; // 1 for right, -1 for left
 
 yesBtn.addEventListener("click", () => {
-    question.innerHTML = "Yay, See you tomorrow!";
+    question.innerHTML = "Yay, See you there!";
     giff.src="image/dance.gif";
     yesBtn.addEventListener("click", ()=>{
         question.innerHTML="Thank You!!!!";
